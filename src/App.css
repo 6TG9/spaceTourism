@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+#root {
+  max-width: 1440px;
+  text-align: center;
+  font-family: "Barlow Condensed", "Bellefair", serif;
+}
+
+/* ✅ Responsive backgrounds for Home Page */
+.homebg {
+  @apply bg-cover bg-center bg-no-repeat min-h-screen;
+  background-image: url('/images/Bitmapmobil4.jpg'); /* Mobile */
+}
+
+@media (min-width: 640px) {
+  .homebg {
+    background-image: url('/images/Home Background.jpg'); /* Tablet */
+  }
+}
+
+@media (min-width: 1024px) {
+  .homebg {
+    background-image: url('/images/Home Background.jpg'); /* Desktop */
+  }
+}
+
+/* ✅ Destination Page */
+.dest {
+  @apply bg-cover bg-center bg-no-repeat min-h-screen;
+  background-image: url('/images/Destination background.jpg');
+}
+
+/* ✅ Crew Page */
+.crew {
+  @apply bg-cover bg-center bg-no-repeat min-h-screen;
+  background-image: url('/images/Crew background.png');
+}
+
+/* ✅ Technology Page */
+.tech {
+  @apply bg-cover bg-center bg-no-repeat min-h-screen;
+  background-image: url('/images/Technology background.png');
+}
