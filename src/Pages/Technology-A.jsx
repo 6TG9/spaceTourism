@@ -53,7 +53,7 @@ const TechnologyA = () => {
         {/* IMAGE */}
         <div className="w-full md:w-auto mb-6 md:mb-0 order-1 md:order-3">
           <img
-            src="/images/Bitmap.jpg"
+            src="/public/images/bitapp.jpg"
             alt="Launch Vehicle"
             className="w-full md:w-[500px] h-auto object-cover"
           />

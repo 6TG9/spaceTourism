@@ -6,12 +6,12 @@ const NavBar = () => {
 
   return (
     <div className="flex w-[375px] sm:w-[729px] h-[96px] items-center gap-[40px] sm:pt-[40px] sm:pl-[55px] pl-[13.75px] justify-between sm:justify-normal relative">
-      <img src="/images/Group 2.svg" alt="" />
+      <img src="/public/images/Grou.svg" alt="" />
 
       {/* ====== Hamburger Menu (Mobile) ====== */}
       {!isOpen && (
         <img
-          src="/images/Group.png"
+          src="/public/images/Group.png"
           alt="menu"
           className="sm:hidden cursor-pointer w-[24px] h-[21px]"
           onClick={() => setIsOpen(true)}
@@ -39,7 +39,7 @@ const NavBar = () => {
         {/* Close Button */}
         <div className="flex justify-end mt-8 pr-6">
           <img
-            src="/images/cancellllll.png"
+            src="/public/images/cancellllll.png"
             alt="close"
             className="cursor-pointer w-[24px] h-[24px]"
             onClick={() => setIsOpen(false)}

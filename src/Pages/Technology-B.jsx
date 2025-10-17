@@ -46,7 +46,7 @@ const TechnologyB = () => {
         </div>
         <div className="w-full md:w-auto mb-6 md:mb-0 order-1 md:order-3">
           <img
-            src="/images/SPACEPORT.jpg"
+            src="/public/images/SPACEPORT.jpg"
             alt=""
             className="w-full md:w-[500px] h-auto object-cover"
           />

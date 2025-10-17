@@ -16,13 +16,13 @@
 
 @media (min-width: 640px) {
   .homebg {
-    background-image: url('/images/Home Background.jpg'); /* Tablet */
+    background-image: url('/public/images/Home_Background.jpg'); /* Tablet */
   }
 }
 
 @media (min-width: 1024px) {
   .homebg {
-    background-image: url('/images/Home Background.jpg'); /* Desktop */
+    background-image: url('/public/images/Home_Background.jpg'); /* Desktop */
   }
 }
 
@@ -41,5 +41,5 @@
 /* ✅ Technology Page */
 .tech {
   @apply bg-cover bg-center bg-no-repeat min-h-screen;
-  background-image: url('/images/Technology background.png');
+  background-image: url('/public/images/Technology_background.png');
 }

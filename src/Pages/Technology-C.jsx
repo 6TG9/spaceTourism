@@ -46,7 +46,7 @@ const TechnologyC = () => {
         </div>
         <div className="w-full md:w-auto mb-6 md:mb-0 order-1 md:order-3">
           <img
-            src="/images/SPACE CAPSULE.jpg"
+            src="/public/images/SPACE_CAPSULE.jpg"
             alt=""
             className="w-full md:w-[500px] h-auto object-cover]"
           />

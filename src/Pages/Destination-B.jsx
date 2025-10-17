@@ -13,7 +13,7 @@ const DestinationB = () => {
           md:flex-row md:items-center md:text-left md:mt-[80px] md:ml-[200px] md:gap-24 md:pb-[40px]"
       >
         <img
-          src="/images/Mars.png"
+          src="/public/images/Mars.png"
           alt="Mars"
           className="w-[170px] mb-8 md:w-[445px] md:mb-0"
         />

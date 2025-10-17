@@ -18,7 +18,7 @@ const DestinationA = () => {
       >
         {/* Moon image */}
         <img
-          src="/images/Moon.png"
+          src="/public/images/Moon.png"
           alt="Moon"
           className="w-[170px] mb-8 md:w-[445px] md:mb-0"
         />
