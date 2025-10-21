@@ -2,6 +2,7 @@ import React from "react";
 import DestinationHead from "../Components/DestinationHead";
 import NavBar from "../Components/NavBar";
 import { NavLink } from "react-router-dom";
+import titan from "../../public/images/Titan.png";
 
 const DestinationD = () => {
   return (
@@ -13,7 +14,7 @@ const DestinationD = () => {
           md:flex-row md:items-center md:text-left md:mt-[80px] md:ml-[200px] md:gap-24 md:pb-[40px]"
       >
         <img
-          src="/public/images/Titan.png"
+          src={titan}
           alt="Titan"
           className="w-[170px] mb-8 md:w-[445px] md:mb-0"
         />

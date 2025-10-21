@@ -2,6 +2,7 @@ import React from "react";
 import TechHead from "../Components/TechHead";
 import NavBar from "../Components/NavBar";
 import { Link } from "react-router-dom";
+import sPort from "../../public/images/SPACEPORT.jpg";
 
 const TechnologyB = () => {
   return (
@@ -46,7 +47,7 @@ const TechnologyB = () => {
         </div>
         <div className="w-full md:w-auto mb-6 md:mb-0 order-1 md:order-3">
           <img
-            src="/public/images/SPACEPORT.jpg"
+            src={sPort}
             alt=""
             className="w-full md:w-[500px] h-auto object-cover"
           />

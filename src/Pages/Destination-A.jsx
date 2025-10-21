@@ -2,6 +2,7 @@ import React from "react";
 import DestinationHead from "../Components/DestinationHead";
 import NavBar from "../Components/NavBar";
 import { NavLink } from "react-router-dom";
+import moon from "../../public/images/Moon.png";
 
 const DestinationA = () => {
   return (
@@ -18,7 +19,7 @@ const DestinationA = () => {
       >
         {/* Moon image */}
         <img
-          src="/public/images/Moon.png"
+          src={moon}
           alt="Moon"
           className="w-[170px] mb-8 md:w-[445px] md:mb-0"
         />

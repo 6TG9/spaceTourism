@@ -2,6 +2,7 @@ import React from "react";
 import TechHead from "../Components/TechHead";
 import NavBar from "../Components/NavBar";
 import { Link } from "react-router-dom";
+import capsule from "../../public/images/SPACE_CAPSULE.jpg";
 
 const TechnologyC = () => {
   return (
@@ -46,7 +47,7 @@ const TechnologyC = () => {
         </div>
         <div className="w-full md:w-auto mb-6 md:mb-0 order-1 md:order-3">
           <img
-            src="/public/images/SPACE_CAPSULE.jpg"
+            src={capsule}
             alt=""
             className="w-full md:w-[500px] h-auto object-cover]"
           />

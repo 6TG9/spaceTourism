@@ -1,17 +1,19 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import homeNav from "../../public/images/HomepageNav.png";
+import mobMenux from "../../public/images/MobileMenu.png";
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="flex w-[375px] sm:w-[729px] h-[96px] items-center gap-[40px] sm:pt-[40px] sm:pl-[55px] pl-[13.75px] justify-between sm:justify-normal relative">
-      <img src="/public/images/Grou.svg" alt="" />
+      <img src={homeNav} alt="" />
 
       {/* ====== Hamburger Menu (Mobile) ====== */}
       {!isOpen && (
         <img
-          src="/public/images/Group.png"
+          src={mobMenux}
           alt="menu"
           className="sm:hidden cursor-pointer w-[24px] h-[21px]"
           onClick={() => setIsOpen(true)}

@@ -2,6 +2,7 @@ import React from "react";
 import TechHead from "../Components/TechHead";
 import NavBar from "../Components/NavBar";
 import { Link } from "react-router-dom";
+import bitapp from "../../public/images/bitapp.jpg";
 
 const TechnologyA = () => {
   return (
@@ -53,7 +54,7 @@ const TechnologyA = () => {
         {/* IMAGE */}
         <div className="w-full md:w-auto mb-6 md:mb-0 order-1 md:order-3">
           <img
-            src="/public/images/bitapp.jpg"
+            src={bitapp}
             alt="Launch Vehicle"
             className="w-full md:w-[500px] h-auto object-cover"
           />
