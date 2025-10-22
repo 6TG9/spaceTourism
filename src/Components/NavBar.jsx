@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import homeNav from "../../public/images/HomepageNav.png";
 import mobMenux from "../../public/images/MobileMenu.png";
+import cancelll from "../../public/images/cancellllll.png"
 
 const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -41,7 +42,7 @@ const NavBar = () => {
         {/* Close Button */}
         <div className="flex justify-end mt-8 pr-6">
           <img
-            src="/public/images/cancellllll.png"
+            src={cancelll}
             alt="close"
             className="cursor-pointer w-[24px] h-[24px]"
             onClick={() => setIsOpen(false)}
